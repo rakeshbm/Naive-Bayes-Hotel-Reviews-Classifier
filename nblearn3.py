@@ -2,7 +2,7 @@ import sys
 import re
 import json
 
-with open('C:/Users/Rakesh/Documents/coding-2-data-corpus/train-labeled.txt', 'r', encoding="utf-8") as f:
+with open(sys.argv[1], 'r', encoding="utf-8") as f:
     content = f.read().lower()
 #content = re.sub("[\[\]!\"#$%&'()*+,\-./:;<=>?@\\_\^`{|}~]",' ',content)
 #content = re.sub('[ \t]+',' ',content)

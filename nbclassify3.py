@@ -449,7 +449,7 @@ z"""
 stop_words = []
 stop_words = s.split()
 
-with open('C:/Users/Rakesh/Documents/coding-2-data-corpus/dev-text.txt', 'r', encoding="utf-8") as f:
+with open(sys.argv[1], 'r', encoding="utf-8") as f:
 	content = f.read().lower()
   
 tokenized_data = []

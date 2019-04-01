@@ -1,5 +1,4 @@
 # Naive-Bayes-Hotel-Reviews-Classifier
-Naive Bayes Classifier for Hotel Reviews
 
 A naive bayes classifier implementation built from scratch in python to classify a corpus of hotel reviews.
 

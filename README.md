@@ -3,7 +3,7 @@
 A naive bayes classifier implementation built from scratch in python to classify a corpus of hotel reviews.
 
 Classification classes:
-True vs. False
+True vs. False  
 Positive vs. Negative
 
 Repository file descriptions:
